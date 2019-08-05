@@ -15,3 +15,16 @@ li a:hover{
     background-color: grey;
     color:white;
 }
+li a.active{
+    background-color: #4CAF50;
+    color:white;
+}
+li{
+    float:left;
+}
+body{
+    background-image:url(src="https://images.pexels.com/photos/1246957/pexels-photo-1246957.jpeg?")
+     
+     
+    
+}
