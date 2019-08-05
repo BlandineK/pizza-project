@@ -22,9 +22,6 @@ li a.active{
 li{
     float:left;
 }
-body{
-    background-image:url(src="https://images.pexels.com/photos/1246957/pexels-photo-1246957.jpeg?")
-     
-     
-    
+.first{
+    background-image:url("../images/nbr1.jpeg");
 }
