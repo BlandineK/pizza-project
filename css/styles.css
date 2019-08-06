@@ -1,6 +1,10 @@
-.first{
-    background-image:url("../images/nbr1.jpeg");
-}
 .second{
     height:800px;
+}
+img{
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+.fourth{
+    text-align:center;
 }
