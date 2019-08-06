@@ -20,6 +20,7 @@
     <title>Pizza Project</title>
 </head>
 <body>
+<img src=images/nbr1.jpeg>
 <div class="first">
 <h1 style="text-align:center">WELCOME TO PIZZA ONLINE ORDERING</h1>
       <br>
@@ -150,16 +151,72 @@
    <div class="fourth">
     <h1 style=text-align:center>PIZZA PRICES</h1>
     <p><strong>Vegeterian Pizza</strong></p>
-            <p>Mushroom and roasted garlic pizza ...... </p>
+            <p>Mushroom and roasted garlic pizza ......</p>    
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>     
             <p>Pizza with sun-dried tomatoes.......</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>  
             <p>Pizza with eggs and sweet potatoes.....</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>  
             <p>Grilled pizza with smoked pumpkin sauce......</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>  
          <br>
     <p><strong>Non - vegeterian Pizza</strong></p> 
             <p>Pepper barbecue chicken.......</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>  
             <p>Chicken Sausage........</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>  
             <p>Chicken Golden Delight.......</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>  
             <p>Chicken Fiesta.......</p>
+                    <p>Small:1500Rwf</p>
+                    <p>Medium:2000Rwf</p>
+                    <p>Large:3300Rwf</p>   
+   </div>
+   <div class="fifth">
+     <h1 style="text-align:center;">Ordering form</h1>
+     <form id="form-user" action="a" method="post">
+       <div class="form-box error" data-errormsg="">
+          <label for="input-first">First</label>
+          <input type="text" id="input-first" autofocus placeholder="First Name" tabindex="1"/>
+       </div>
+       <div class="form-box" data-errormsg="">
+          <label for="input-email">E-mail</label>
+          <input type="E-mail"id="input-email" required placeholder="E-mail Adress" tabindex="2"/>
+       </div>
+       <div class="form-box" data-errormsg="">
+           <label for="input-password">Password</label>  
+           <input type="password" id="input-password" required placeholder="Password" tabindex="3"/>
+       </div>
+       <div class="form-box" data-errormsg="">
+           <label for="input-quantity">Quantity</label>  
+           <select type="quantity" id="input-quantity" required placeholder="Quantity" tabindex="4"/>
+              <option value="0">1</option>
+              <option value="1">2</option>
+              <option value="2">3</option>
+              <option value="3">4</option>
+       </div>
+       <div class="form-box" data-errormsg="">
+           <label for="input-type of pizza">Type of pizza</label>  
+           <input type="type of pizza" id="input-type of pizza" required placeholder="Type of pizza" tabindex="5"/>
+       </div>
+       <div class="form-box">  
+           <button id="button-cancel">Cancel</button>
+           <button id="button-send">Send</button>
+    </form>
    </div>
 
 
